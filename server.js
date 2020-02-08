@@ -8,7 +8,7 @@ const http = require("http");
 
 http.createServer(function(request, response){
 
-console.log(request.headers);
+console.log(request.body);
     response.write("<h2>hello world</h2>");
     response.end();
 
