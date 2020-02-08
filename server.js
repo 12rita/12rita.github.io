@@ -3,7 +3,7 @@ const http = require("http");
 fs = require('fs');
 
 // language=HTML
-var body = `<html>
+let goodResult = `<html>
 <head>
     <style>
         * {
@@ -51,6 +51,7 @@ var body = `<html>
 
 </body>
 </html>`;
+let badResult ='';
 const server = http.createServer((req, res) => {
     let data = [];
     req.on('data', chunk => {
@@ -65,12 +66,13 @@ const server = http.createServer((req, res) => {
         if (password==='374'){
 
             res.writeHead(200,{"Content-Type" : "text/html"});
-            res.write(body);
+            res.write(goodResult);
 
             res.end();
         }
         else{
-            res.write('nooo');
+            res.writeHead(200,{"Content-Type" : "text/html"});
+            res.write(badResult);
             res.end();
         }
 
