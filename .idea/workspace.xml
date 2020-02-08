@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="869f8fbc-72e7-4d69-a382-2080183b2768" name="Default Changelist" comment="server">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step1.html" beforeDir="false" afterPath="$PROJECT_DIR$/step1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
@@ -46,7 +54,7 @@
       <updated>1581075765414</updated>
       <workItem from="1581075766634" duration="947000" />
       <workItem from="1581159633837" duration="447000" />
-      <workItem from="1581160120550" duration="158000" />
+      <workItem from="1581160120550" duration="3727000" />
     </task>
     <servers />
   </component>
@@ -66,5 +74,77 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581159910250" />
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1581163483004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581163483004" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1581163483003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581163483003" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1581163483003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581163483003" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1581163483004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581163483004" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1581163016211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581163016211" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1581163016211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1581163016211" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1581163016211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1581163016211" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1581163016211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581163016211" />
+    <state width="1259" height="204" key="GridCell.Tab.2.bottom" timestamp="1581163016211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581163016211" />
+    <state width="1259" height="204" key="GridCell.Tab.2.center" timestamp="1581163016211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1581163016211" />
+    <state width="1259" height="204" key="GridCell.Tab.2.left" timestamp="1581163016211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1581163016211" />
+    <state width="1259" height="204" key="GridCell.Tab.2.right" timestamp="1581163016211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1581163016211" />
+    <state width="1259" height="204" key="GridCell.Tab.3.bottom" timestamp="1581163016212">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581163016212" />
+    <state width="1259" height="204" key="GridCell.Tab.3.center" timestamp="1581163016212">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1581163016212" />
+    <state width="1259" height="204" key="GridCell.Tab.3.left" timestamp="1581163016211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1581163016211" />
+    <state width="1259" height="204" key="GridCell.Tab.3.right" timestamp="1581163016212">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1581163016212" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="chunk" />
+        <watch expression="chunk" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
