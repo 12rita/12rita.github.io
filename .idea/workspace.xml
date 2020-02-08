@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="869f8fbc-72e7-4d69-a382-2080183b2768" name="Default Changelist" comment="server">
+      <change afterPath="$PROJECT_DIR$/noway.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step1.html" beforeDir="false" afterPath="$PROJECT_DIR$/step1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <updated>1581075765414</updated>
       <workItem from="1581075766634" duration="947000" />
       <workItem from="1581159633837" duration="447000" />
-      <workItem from="1581160120550" duration="11398000" />
+      <workItem from="1581160120550" duration="12326000" />
     </task>
     <servers />
   </component>
@@ -150,6 +151,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1581163016212" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1581190492743">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581190492743" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
