@@ -45,13 +45,58 @@ let goodResult = `<html>
 </div>
 <br>
 <br>
-<a href="./step1.html">
-    <input class='button' type="button" value="Начать страдать">
-</a>
 
 </body>
 </html>`;
-let badResult ='';
+let badResult =`<html>
+<head>
+<style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+        }
+
+        .text {
+            margin-top: 20%;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            line-height: 58px;
+            color: #FFFFFF;
+        }
+
+        .button {
+            background: #FFFFFF;
+            border-radius: 6px;
+            width: 300px;
+            height: 100px;
+            font-size: 30px;
+            line-height: 58px;
+        }
+
+    </style>
+    <meta charset="utf-8">
+   
+</head>
+<body bgcolor="00AEAF">
+<div class='block'>
+    <p class='text'>
+        Неа, попробуй ещё раз
+    </p>
+    <p class="text1">Введите пароль <br>
+ </p>
+    <form action="http://167.172.99.77:3000" method="post" id="myform">
+        <input type="password" id="login-pass" name="password">
+        <button type="submit" class="btn btn-default">А сейчас?</button>
+    </form>
+
+</div>
+</body>
+</html>`;
+
 const server = http.createServer((req, res) => {
     let data = [];
     req.on('data', chunk => {
@@ -82,25 +127,4 @@ const server = http.createServer((req, res) => {
 
 });
 server.listen(3000);
-
-// let Server=new http.Server();
-// server.on('request', function (rew,res) {
-// re.end('hello');
-// })
-
-// http.createServer(function(req, res){
-//
-//     let data = [];
-//     req.on('data', chunk => {
-//         data.push(chunk)
-//     });
-//     req.on('end', () => {
-//         JSON.parse(data)
-//     });
-// // console.log(request.headers);
-// //     response.write('<h2>hello world</h2>');
-//     console.log(data);
-//     res.end();
-//
-// }).listen(3000);
 
