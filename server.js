@@ -12,13 +12,22 @@ let goodResult = `<html>
             box-sizing: border-box;
             font-family: 'Lato', sans-serif;
             text-align: center;
+
         }
 
         .text {
-            margin-top: 20%;
+            margin-top: 10%;
             font-style: normal;
             font-weight: normal;
             font-size: 48px;
+            line-height: 58px;
+            color: #FFFFFF;
+        }
+
+        .text1 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
             line-height: 58px;
             color: #FFFFFF;
         }
@@ -32,6 +41,16 @@ let goodResult = `<html>
             line-height: 58px;
         }
 
+        .button1 {
+            position: absolute;
+            bottom:0;
+            right: 0;
+            width: 300px;
+            height: 100px;
+            background: transparent;
+            border: none !important;
+            font-size: 0;
+        }
     </style>
     <meta charset="utf-8">
 </head>
@@ -47,41 +66,56 @@ let goodResult = `<html>
 
 </div>
 
-
-<a href="./noway2.html">
-    <input class='button1' type="button">
-</a>
-
 </body>
 </html>`;
 let badResult =`<html>
 <head>
 <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            font-family: 'Lato', sans-serif;
-            text-align: center;
-        }
+      * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 
-        .text {
-            margin-top: 20%;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 48px;
-            line-height: 58px;
-            color: #FFFFFF;
-        }
+}
 
-        .button {
-            background: #FFFFFF;
-            border-radius: 6px;
-            width: 300px;
-            height: 100px;
-            font-size: 30px;
-            line-height: 58px;
-        }
+.text {
+    margin-top: 10%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.text1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.button {
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    line-height: 58px;
+}
+
+.button1 {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    width: 300px;
+    height: 100px;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
 
     </style>
     <meta charset="utf-8">
