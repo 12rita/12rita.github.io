@@ -39,12 +39,18 @@ let goodResult = `<html>
 <div class='block'>
     <p class='text'>
         Что ж, неплохо, но ты же не думал, что на этом всё закончится?
+        <br>
+        <br>
+        8-7-13-20-29-11 5-10-3-1-15
     </p>
     <br>
 
 </div>
-<br>
-<br>
+
+
+<a href="./noway2.html">
+    <input class='button1' type="button">
+</a>
 
 </body>
 </html>`;
