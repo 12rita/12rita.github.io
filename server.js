@@ -10,13 +10,32 @@ let goodResult = `<html>
             padding: 0;
             margin: 0;
             box-sizing: border-box;
-            font-family: 'Lato', sans-serif;
+            font-family: 'courier', sans-serif;
+
+
+
+        }
+
+        body {
             text-align: center;
+            background-position: center;
+            background-size: cover;
+            background: linear-gradient(rgba(17, 12, 73, 0.5), rgba(39, 12, 73, 0.5)), url("./Pics/gory_6.jpg") no-repeat;
+
+
+        }
+
+        .block {
+
+            text-align: left;
+
+            margin-left: 15%;
+
 
         }
 
         .text {
-            margin-top: 10%;
+            margin-top: 20%;
             font-style: normal;
             font-weight: normal;
             font-size: 48px;
@@ -34,16 +53,19 @@ let goodResult = `<html>
 
         .button {
             background: #FFFFFF;
-            border-radius: 6px;
-            width: 300px;
-            height: 100px;
+            border-radius: 16px;
+            width: 360px;
+            height: 80px;
             font-size: 30px;
             line-height: 58px;
+            font-weight: bold;
+            color: #111638;
+            border: none;
         }
 
         .button1 {
             position: absolute;
-            bottom:0;
+            bottom: 0;
             right: 0;
             width: 300px;
             height: 100px;
@@ -51,6 +73,31 @@ let goodResult = `<html>
             border: none !important;
             font-size: 0;
         }
+        .button2 {
+            background: #FFFFFF;
+            border-radius: 16px;
+            width: 200px;
+            height: 80px;
+            font-size: 30px;
+            line-height: 58px;
+            font-weight: bold;
+            color: #111638;
+            border: none;
+        }
+        .input {
+            font-size: 30px;
+            border-radius: 10px;
+            width: 100px;
+            height: 60px;
+            text-align: center;
+            border: none;
+
+        }
+        .audio {
+            position: absolute;
+            bottom: 0;
+        }
+
     </style>
     <meta charset="utf-8">
 </head>
@@ -71,17 +118,36 @@ let goodResult = `<html>
 let badResult =`<html>
 <head>
 <style>
-      * {
+     * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'courier', sans-serif;
+
+
+
+}
+
+body {
     text-align: center;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(rgba(17, 12, 73, 0.5), rgba(39, 12, 73, 0.5)), url("./Pics/gory_6.jpg") no-repeat;
+
+
+}
+
+.block {
+
+    text-align: left;
+
+    margin-left: 15%;
+
 
 }
 
 .text {
-    margin-top: 10%;
+    margin-top: 20%;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -99,22 +165,49 @@ let badResult =`<html>
 
 .button {
     background: #FFFFFF;
-    border-radius: 6px;
-    width: 300px;
-    height: 100px;
+    border-radius: 16px;
+    width: 360px;
+    height: 80px;
     font-size: 30px;
     line-height: 58px;
+    font-weight: bold;
+    color: #111638;
+    border: none;
 }
 
 .button1 {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     right: 0;
     width: 300px;
     height: 100px;
     background: transparent;
     border: none !important;
     font-size: 0;
+}
+.button2 {
+    background: #FFFFFF;
+    border-radius: 16px;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    line-height: 58px;
+    font-weight: bold;
+    color: #111638;
+    border: none;
+}
+.input {
+    font-size: 30px;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    border: none;
+
+}
+.audio {
+    position: absolute;
+    bottom: 0;
 }
 
     </style>
@@ -129,8 +222,8 @@ let badResult =`<html>
     <p class="text1">Введите пароль <br>
  </p>
     <form action="http://167.172.99.77:3000" method="post" id="myform">
-        <input type="password" id="login-pass" name="password">
-        <button type="submit" class="btn btn-default">А сейчас?</button>
+        <input class ='input' type="password" id="login-pass" name="password">
+        <button class = 'button2' type="submit" class="btn btn-default">А сейчас?</button>
     </form>
 
 </div>

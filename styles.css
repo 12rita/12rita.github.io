@@ -2,14 +2,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'courier', sans-serif;
+
+
+
+}
+
+body {
     text-align: center;
-    background-image: url("./Pics/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(rgba(17, 12, 73, 0.5), rgba(39, 12, 73, 0.5)), url("./Pics/gory_6.jpg") no-repeat;
+
+
+}
+
+.block {
+
+    text-align: left;
+
+    margin-left: 15%;
+
 
 }
 
 .text {
-    margin-top: 10%;
+    margin-top: 20%;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -27,16 +45,19 @@
 
 .button {
     background: #FFFFFF;
-    border-radius: 6px;
-    width: 300px;
-    height: 100px;
+    border-radius: 16px;
+    width: 360px;
+    height: 80px;
     font-size: 30px;
     line-height: 58px;
+    font-weight: bold;
+    color: #111638;
+    border: none;
 }
 
 .button1 {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     right: 0;
     width: 300px;
     height: 100px;
@@ -44,8 +65,27 @@
     border: none !important;
     font-size: 0;
 }
+.button2 {
+    background: #FFFFFF;
+    border-radius: 16px;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    line-height: 58px;
+    font-weight: bold;
+    color: #111638;
+    border: none;
+}
+.input {
+    font-size: 30px;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    border: none;
 
+}
 .audio {
     position: absolute;
-    bottom:0;
+    bottom: 0;
 }
