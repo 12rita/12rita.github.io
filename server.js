@@ -20,7 +20,7 @@ let goodResult = `<html>
             text-align: center;
             background-position: center;
             background-size: cover;
-            background: linear-gradient(rgba(17, 12, 73, 0.5), rgba(39, 12, 73, 0.5)), url("./Pics/gory_6.jpg") no-repeat;
+            background: linear-gradient(rgba(17, 12, 73, 0.5), rgba(39, 12, 73, 0.5)), url("http://2d.by/wallpapers/g/gory_6.jpg") no-repeat;
 
 
         }
@@ -132,7 +132,7 @@ body {
     text-align: center;
     background-position: center;
     background-size: cover;
-    background: linear-gradient(rgba(17, 12, 73, 0.5), rgba(39, 12, 73, 0.5)), url("./Pics/gory_6.jpg") no-repeat;
+    background: linear-gradient(rgba(17, 12, 73, 0.5), rgba(39, 12, 73, 0.5)), url("http://2d.by/wallpapers/g/gory_6.jpg") no-repeat;
 
 
 }
